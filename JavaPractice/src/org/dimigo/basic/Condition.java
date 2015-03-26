@@ -10,28 +10,22 @@ public class Condition {
 		
 		switch(carType) {
 		case 1:
-			if(distance <=10)
-				fee = 850;
-			else if(distance <=20)
-				fee = 1150;
-			else if(distance <= 30)
-				fee = 1450;
+			if(distance%10 != 0)
+				fee = 850 + 300 * (distance/10);
+			else
+				fee = 850 + 300 * (distance/10-1);
 			break;
 		case 2:
-			if(distance <=10)
-				fee = 300;
-			else if(distance <=20)
-				fee = 500;
-			else if(distance <= 30)
-				fee = 700;
+			if(distance%10 != 0)
+				fee = 300 + 200 * (distance/10);
+			else
+				fee = 300 + 200 * (distance/10-1);
 			break;
 		case 3:
-			if(distance <=10)
-				fee = 600;
-			else if(distance <=20)
-				fee = 800;
-			else if(distance <= 30)
-				fee = 1000;
+			if(distance%10 != 0)
+				fee = 600 + 200 * (distance/10);
+			else
+				fee = 600 + 200 * (distance/10-1);
 			break;
 		}
 		
