@@ -46,19 +46,19 @@ public class CarTest {
 		System.out.println("모델명 : " 		+ car1.getModel());
 		System.out.println("색상 : " 			+ car1.getColor());
 		System.out.println("최대속도 : " 	+ car1.getMaxSpeed() + "km");
-		System.out.println("가격 : "			+ String.format("%,d", car1.getPrice()) + "km");
+		System.out.println("가격 : "			+ String.format("%,d", car1.getPrice()) + "원");
 		System.out.println();
 		System.out.println("제조사명 : " 	+ car2.getCompany());
 		System.out.println("모델명 : " 		+ car2.getModel());
 		System.out.println("색상 : " 			+ car2.getColor());
 		System.out.println("최대속도 : " 	+ car2.getMaxSpeed() + "km");
-		System.out.println("가격 : "			+ String.format("%,d", car2.getPrice()) + "km");
+		System.out.println("가격 : "			+ String.format("%,d", car2.getPrice()) + "원");
 		System.out.println();
 		System.out.println("제조사명 : " 	+ car3.getCompany());
 		System.out.println("모델명 : "	 	+ car3.getModel());
 		System.out.println("색상 : " 			+ car3.getColor());
 		System.out.println("최대속도 : " 	+ car3.getMaxSpeed() + "km");
-		System.out.println("가격 : "			+ String.format("%,d", car3.getPrice()) + "km");
+		System.out.println("가격 : "			+ String.format("%,d", car3.getPrice()) + "원");
 		System.out.println();
 		
 	}
