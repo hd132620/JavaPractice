@@ -15,15 +15,23 @@ package org.dimigo.oop;
  * @author		: 이은찬
  * @version		: 1.0
  */
-public class Car {
+public class Car2 {
 	private String company;
 	private String model;
 	private String color;
 	private int maxSpeed;
 	private int price;
 	
-	public Car() {
+	public Car2() {
 		
+	}
+	
+	public Car2(String newCompany, String newModel, String newColor, int newMaxSpeed, int newPrice) {
+		company = newCompany;
+		model = newModel;
+		color = newColor;
+		maxSpeed = newMaxSpeed;
+		price = newPrice;
 	}
 	
 	
@@ -45,26 +53,6 @@ public class Car {
 	
 	public int getPrice() {
 		return price;
-	}
-	
-	public void setCompany(String Company) {
-		company = Company;
-	}
-	
-	public void setModel(String Model) {
-		model = Model;
-	}
-	
-	public void setColor(String Color) {
-		color = Color;
-	}
-	
-	public void setMaxSpeed(int MaxSpeed) {
-		maxSpeed = MaxSpeed;
-	}
-	
-	public void setPrice(int Price) {
-		price = Price;
 	}
 	
 }
