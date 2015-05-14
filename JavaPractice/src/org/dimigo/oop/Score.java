@@ -45,7 +45,6 @@ public class Score {
 			.append(" 점\n")
 			.append("총점 : ")
 			.append(kor + math + eng)
-			
 			.append(" 점\n")
 			.append("평균 : ")
 			.append(String.format("%.1f", (kor + math + eng)/3.0))
