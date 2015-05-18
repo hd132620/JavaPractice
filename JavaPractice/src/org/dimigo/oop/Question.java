@@ -28,6 +28,7 @@ public class Question {
 		else
 			System.out.println("틀렸습니다!!");
 		
+		
 		System.out.println("가장 좋아하는 배우는?");
 		String actorAnswer = scanner.nextLine();
 		if(actorAnswer.equals("조인성")) 
