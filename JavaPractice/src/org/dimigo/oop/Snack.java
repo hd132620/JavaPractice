@@ -16,10 +16,11 @@ package org.dimigo.oop;
  * @version		: 1.0
  */
 public class Snack {
-	String name;
-	String company;
-	int price;
-	int number;
+	
+	private String name;
+	private String company;
+	private int price;
+	private int number;
 	
 	public Snack() {
 		
