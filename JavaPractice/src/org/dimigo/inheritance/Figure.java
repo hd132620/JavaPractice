@@ -30,7 +30,7 @@ public class Figure {
 	}
 	
 	protected void printCenter() {
-		System.out.println("중심좌표 : (" + centerX + ", " + centerY + ")");
+		System.out.println("중심좌표 : " + "(" + centerX + ", " + centerY + ")");
 	}
 	
 	protected void moveFigure(int x, int y) {
