@@ -19,8 +19,6 @@ public class PiggyBankTest {
 
 	public static void main(String[] args) {
 		
-		//PiggyBank pb1 = new PiggyBank();
-		
 		FamilyMember dad = new FamilyMember("아빠");
 		FamilyMember mom = new FamilyMember("엄마");
 		FamilyMember me = new FamilyMember("나");
@@ -38,6 +36,7 @@ public class PiggyBankTest {
 		PiggyBank.putMoney(me, 1000);
 		
 		PiggyBank.printBalance();
+
 	}
 
 }
