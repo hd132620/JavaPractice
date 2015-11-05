@@ -21,8 +21,11 @@ public class Race {
 		
 		System.out.println("main thread start");
 		
-		Runner r1 = new Runner("홍길동");
-		Runner r2 = new Runner("홍길순");
+		Thread r1 = new Runner("홍길동");
+		Thread r2 = new Runner("홍길순");
+		
+		r1.setPriority(Thread.MAX_PRIORITY);
+		r2.setPriority(Thread.MIN_PRIORITY);
 		
 		r1.start();
 		r2.start();
